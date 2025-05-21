@@ -1,0 +1,120 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background: gray;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid;
+}
+nav ul li {
+    float: left;
+    margin-bottom: 20px;
+}
+a:hover {
+    background: white;
+}
+
+.rogus-katalog {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+.katalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produk {
+    background-color: rgb(0, 255, 170);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 5, 5, 0.1);
+}
+
+.harga {
+    color: green;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+    background-color: black;
+}
+
+.tentang {
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.tentang1 {
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.discord {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.discord:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+.text {
+    justify-content: center;
+    text-align: center;
+}
